@@ -31,7 +31,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 
-BOARD_KERNEL_CMDLINE := 
+USE_OPENGL_RENDERER := true
+
+BOARD_KERNEL_CMDLINE := androidboot.hardware=samsungexynos7420
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset  0x01000000 --dt device/samsung/zeroflte/dtb --tags_offset 0x0000100
