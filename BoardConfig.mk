@@ -68,7 +68,10 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 BOARD_SUPPRESS_SECURE_ERASE := true
 
+TARGET_RECOVERY_FSTAB := device/samsung/zeroflte/rootdir/etc/fstab.samsungexynos7420
+
 # TWRP specific build flags
+DEVICE_RESOLUTION := 1440x2560
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
