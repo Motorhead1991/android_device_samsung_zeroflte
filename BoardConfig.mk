@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/samsung/zeroflte/BoardConfigVendor.mk
+#(call inherit-product, vendor/samsung/zeroflte/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := zeroflte
